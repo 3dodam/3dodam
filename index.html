@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>가람고등학교</title>
+  <!-- 파비콘 -->
+  <link rel="shortcut icon" href="https://pbs.twimg.com/profile_images/1462089074114797586/0SSiLSHU_400x400.jpg"
+    type="image/x-icon">
+  <style>
+    .부모 {
+      background-color: darkcyan;
+    }
+
+    .부모>.자식1{
+      border: 2px solid blue;
+      background-color: darksalmon;
+    }
+    /* > 맞닿은 하위요소만 지정 */
+
+    .부모 .자식2 {
+      background-color: darkolivegreen;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="부모">
+    <!-- alt + shift + ↓ : 복사 -->
+    <!-- ctrl + / : 주석 -->
+    <!-- alt + ↓ : 한줄이동 -->
+    <div class="자식1">
+      <div class="자식1">자식1</div>
+      <div class="둘째">둘째</div>
+    </div>
+    <div class="자식2">자식2</div>
+  </div>
+</body>
+
+</html>
