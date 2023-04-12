@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.사랑::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.유정인 {
+  /* 전체의 '넓이'는 부모인 body를 따르고
+  전체의 '높이'는 자식을 따른다 */
+  border: 5px solid red;
+  padding: 20px;
+}
+
+.설도현 {
+  /* 설도현의 넓이는 부모인 유정인을 따르고
+  설도현의 높이는 자식인 텍스트'설도현'의 높이가 자신의 높이가 된다. */
+  border: 5px solid blue;
+}
+
+.서주인 {
+  width: 300px;
+  border: 5px solid green;
+  margin: 0 auto;
+}
+
+.장소은 {
+  margin-top: 30px;
+  border: 5px solid blueviolet;
+}
+
+.장소은 .캐자 {
+  background-color: skyblue;
+  width: 33.3333%;
+  float: left;
+}
+
+.장소은 .약 {
+  clear: both;
+}
+
+.도현이 {
+  border: 5px solid peru;
+}
+
+.도현 {
+  background-color: mediumturquoise;
+  width: 50%;
+  float: left;
+}
